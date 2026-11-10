@@ -33,7 +33,7 @@ export const ProviderSettingsPage = () => {
         <div className="rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-xl p-8 shadow-xl space-y-6">
           <div className="flex items-center gap-2 pb-4 border-b border-white/10">
             <ShieldCheck className="h-4 w-4 text-rose-400" />
-            <h2 className="text-base font-bold text-white tracking-tight">Algorithmic Dispatch Parameters</h2>
+            <h2 className="text-base font-bold text-white tracking-tight">Fleet Dispatch Parameters</h2>
           </div>
 
           <div className="space-y-5">
@@ -45,9 +45,9 @@ export const ProviderSettingsPage = () => {
                 className="mt-1 rounded border-white/20 bg-zinc-900 text-rose-600 focus:ring-rose-500/30 cursor-pointer"
               />
               <div>
-                <p className="text-xs font-bold text-white">Enable Automated Driver Dispatch Offers</p>
+                <p className="text-xs font-bold text-white">Enable Direct Driver Dispatch Offers</p>
                 <p className="text-[11px] text-zinc-400 mt-0.5 leading-relaxed">
-                  Automatically routes high-priority emergency jobs to the closest available on-duty driver via Uber-style 30s countdown.
+                  Directly routes high-priority emergency jobs to the closest available on-duty driver with 30s response lock.
                 </p>
               </div>
             </label>

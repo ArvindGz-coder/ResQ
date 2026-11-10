@@ -1,6 +1,5 @@
 import { Navigation, Clock, ShieldCheck, Flame, ArrowRight, ExternalLink } from 'lucide-react';
 import type { FacilityRecommendationItem } from '../../types/emergency';
-import { RecommendationReason } from './RecommendationReason';
 
 export interface FacilityRecommendationProps {
   item: FacilityRecommendationItem;
@@ -17,7 +16,7 @@ export const FacilityRecommendation = ({
   onViewDetails,
   className = '',
 }: FacilityRecommendationProps) => {
-  const { facility, reason, highlightCapability } = item;
+  const { facility, highlightCapability } = item;
 
   return (
     <article
@@ -84,9 +83,6 @@ export const FacilityRecommendation = ({
           Straight-line distance only; driving route/ETA unavailable.
         </p>
       )}
-
-      {/* Recommendation Explanation */}
-      <RecommendationReason reason={reason} />
 
       {/* Footer Info & Actions */}
       <div className="pt-3 border-t border-white/10 flex flex-wrap items-center justify-between gap-3">

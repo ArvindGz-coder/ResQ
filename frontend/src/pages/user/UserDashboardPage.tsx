@@ -261,7 +261,7 @@ export const UserDashboardPage = () => {
           {
             icon: HeartPulse,
             label: 'Care Inquiries',
-            sub: 'Direct hospital support & patient triage',
+            sub: 'Direct hospital support & care requests',
             badge: 'Direct Connect',
             to: ROUTES.USER.REQUESTS,
           },

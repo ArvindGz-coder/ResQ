@@ -21,7 +21,7 @@ export const HospitalSettingsPage = () => {
     <div className="mx-auto w-full max-w-4xl p-4 sm:p-6 lg:p-8 space-y-6 font-sans">
       <div>
         <h1 className="text-2xl font-bold tracking-tight text-zinc-100">Hospital Facility & Operational Settings</h1>
-        <p className="text-xs text-zinc-400 mt-1">Configure triage automation, pre-arrival emergency alert sounds, and bed thresholds</p>
+        <p className="text-xs text-zinc-400 mt-1">Configure direct intake protocol, pre-arrival emergency alert sounds, and bed thresholds</p>
       </div>
 
       {saved && (
@@ -82,10 +82,10 @@ export const HospitalSettingsPage = () => {
               />
               <div>
                 <p className="text-xs font-semibold text-zinc-200 group-hover:text-rose-300 transition-colors">
-                  Auto-Accept Level 1 Trauma Dispatches When Capacity &gt; 20%
+                  Direct Fast-Track Intake for Level 1 Trauma Cases When Capacity &gt; 20%
                 </p>
                 <p className="text-[11px] text-zinc-400 mt-1 leading-relaxed">
-                  Automatically transitions incoming life-threat cases to PREPARING stage without manual physician queue acceptance.
+                  Directly transitions incoming life-threat cases to PREPARING stage for priority trauma arrival.
                 </p>
               </div>
             </label>

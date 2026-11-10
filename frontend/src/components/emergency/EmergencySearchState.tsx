@@ -40,7 +40,7 @@ export const EmergencySearchState = ({
       <div className="space-y-2 max-w-md">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-500/10 border border-rose-500/20 text-rose-400 text-xs font-mono">
           <span className="w-1.5 h-1.5 rounded-full bg-rose-500 animate-pulse" />
-          <span>Real-time Triage Query</span>
+          <span>Real-time Facility Query</span>
         </div>
         <h2 className="text-2xl font-light text-zinc-100 tracking-tight">
           Finding suitable care nearby...

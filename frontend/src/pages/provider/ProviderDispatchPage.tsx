@@ -24,8 +24,8 @@ export const ProviderDispatchPage = () => {
     <div className="space-y-6 font-sans text-zinc-100">
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div>
-          <h1 className="text-2xl font-black text-white tracking-tight">Live Algorithmic Dispatch Board</h1>
-          <p className="text-xs text-zinc-400 mt-1">Real-time emergency queue and GPS-matched ambulance vehicle assignment</p>
+          <h1 className="text-2xl font-black text-white tracking-tight">Live Fleet Dispatch Board</h1>
+          <p className="text-xs text-zinc-400 mt-1">Real-time emergency queue and GPS-coordinated ambulance vehicle assignment</p>
         </div>
         <div className="flex items-center gap-2 text-xs font-semibold text-emerald-300 bg-emerald-500/10 px-3 py-1.5 rounded-xl border border-emerald-500/20">
           <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
@@ -53,7 +53,7 @@ export const ProviderDispatchPage = () => {
             </div>
           </div>
           <p className="mt-2 text-3xl font-light text-rose-400 tracking-tight font-mono">{activeRequests.length}</p>
-          <p className="text-xs text-zinc-400 mt-1">Algorithmic matching in progress</p>
+          <p className="text-xs text-zinc-400 mt-1">Awaiting fleet dispatch</p>
         </div>
       </div>
 

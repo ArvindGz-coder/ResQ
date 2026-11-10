@@ -376,7 +376,7 @@ export const EmergencyPage = () => {
           <div className="space-y-2">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-500/10 border border-rose-500/20 text-rose-400 text-xs font-mono">
               <Building2 className="w-3.5 h-3.5" />
-              <span>Verified Destination Triage</span>
+              <span>Verified Emergency Facilities</span>
             </div>
             <h2 className="text-2xl md:text-3xl font-light text-zinc-100 tracking-tight">
               Hospitals for {selectedSituation?.label ?? 'your emergency'}

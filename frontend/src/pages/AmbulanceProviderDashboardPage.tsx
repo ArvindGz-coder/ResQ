@@ -1,6 +1,6 @@
 import { useMemo, useState, useRef } from 'react';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
-import { useLocation, useNavigate, Link } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import {
   Ambulance,
   Users,
@@ -11,16 +11,13 @@ import {
   ShieldCheck,
   RefreshCw,
   AlertTriangle,
-  ArrowRight,
   Navigation,
   Car,
   UserCheck,
-  Activity,
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { ambulanceProviderApi } from '../services/ambulanceProviderApi';
 import type { AmbulanceStatus } from '../types/ambulanceOperations';
-import { ROUTES } from '../routes/routePaths';
 
 // ─── Reusable Mouse-Tracking Spotlight Bento Card ───────────────────────────
 const SpotlightCard = ({
@@ -313,28 +310,6 @@ export const AmbulanceProviderDashboardPage = ({
                 Paramedics & operators checked in
               </p>
             </SpotlightCard>
-          </div>
-
-          {/* Quick Operations Strip */}
-          <div className="rounded-2xl bg-white/[0.025] border border-white/10 p-5 backdrop-blur-xl flex flex-wrap items-center justify-between gap-4">
-            <div className="flex items-center gap-3">
-              <div className="h-9 w-9 rounded-xl bg-rose-500/10 border border-rose-500/20 text-rose-400 flex items-center justify-center">
-                <Activity className="h-4.5 w-4.5 animate-pulse" />
-              </div>
-              <div>
-                <p className="text-xs font-bold text-white">Automated Algorithmic Dispatch Engine</p>
-                <p className="text-[11px] text-zinc-400">Jaipur central telemetry relay synced · SLA 99.8%</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-3">
-              <Link
-                to={ROUTES.PROVIDER.DISPATCH}
-                className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold text-white bg-gradient-to-r from-rose-600 to-rose-500 hover:from-rose-500 hover:to-rose-600 shadow-md shadow-rose-950/50 transition-all cursor-pointer"
-              >
-                <span>Live Dispatch Board</span>
-                <ArrowRight className="h-3.5 w-3.5" />
-              </Link>
-            </div>
           </div>
 
           {/* Operations Queue & Active Trips Workspace: Split Layout */}
