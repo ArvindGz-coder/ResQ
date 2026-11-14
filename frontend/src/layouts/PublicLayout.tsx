@@ -41,7 +41,7 @@ export const PublicLayout = () => {
             <div>
               <div className="flex items-center gap-2">
                 <span className="text-lg font-bold tracking-tight text-white group-hover:text-rose-100 transition-colors">
-                  resQ 2.O
+                  ResQ
                 </span>
                 <span className="hidden sm:inline-block text-[10px] font-mono uppercase px-2 py-0.5 rounded-full bg-rose-500/10 text-rose-400 border border-rose-500/20">
                   Crisis Fabric

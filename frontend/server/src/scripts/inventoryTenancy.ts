@@ -1781,7 +1781,7 @@ export const runTenancyInventory = async (options: InventoryOptions = {}): Promi
 
 export const printConsoleSummary = (report: TenancyInventoryReport): void => {
   console.log('\n================================================================');
-  console.log('       ResQ 2.0 — Read-Only Multi-Tenancy Inventory Audit       ');
+  console.log('         ResQ — Read-Only Multi-Tenancy Inventory Audit         ');
   console.log('================================================================');
   console.log(`Timestamp: ${report.timestamp}`);
   console.log(`Database:  ${report.databaseName}`);

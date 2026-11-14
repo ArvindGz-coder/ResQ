@@ -1,6 +1,6 @@
-# ResQ 2.0: Production Deployment and Reliability Checklist
+# ResQ: Production Deployment and Reliability Checklist
 
-This checklist provides the mandatory operational steps, configuration requirements, security controls, and health verification procedures required before promoting **ResQ 2.0** to a staging or production environment.
+This checklist provides the mandatory operational steps, configuration requirements, security controls, and health verification procedures required before promoting **ResQ** to a staging or production environment.
 
 ---
 

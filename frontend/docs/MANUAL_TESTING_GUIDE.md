@@ -1,4 +1,4 @@
-# ResQ 2.0 — Comprehensive Manual Testing Guide & End-to-End Test Plan
+# ResQ — Comprehensive Manual Testing Guide & End-to-End Test Plan
 
 **Document Version:** 2.0  
 **Target Environment:** Local Development / Staging  

@@ -13,7 +13,7 @@ export interface GoogleMapStyleItem {
 }
 
 /**
- * Native Google Maps Dark Mode Style Object for resQ 2.O
+ * Native Google Maps Dark Mode Style Object for ResQ
  * Unified Dark Obsidian Glassmorphism Design System:
  * - Water bodies in dark obsidian: #050507
  * - Roads in deep dark gray: #18181b / #27272a

@@ -341,7 +341,7 @@ export const AdminDashboardPage = () => {
                 <span className="h-1.5 w-1.5 rounded-full bg-red-400" />
                 LIVE
               </span>
-              <span className="text-[11px] text-slate-400 font-medium">ResQ 2.0 Command Centre</span>
+              <span className="text-[11px] text-slate-400 font-medium">ResQ Command Centre</span>
             </div>
             <h1 className="text-2xl sm:text-3xl font-black text-white">
               Welcome back, {user?.name?.split(' ')[0] ?? 'Admin'}! 👋

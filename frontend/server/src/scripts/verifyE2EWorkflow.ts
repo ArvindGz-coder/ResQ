@@ -177,7 +177,7 @@ const ensureDemoAccountsExist = async () => {
 export const runE2EVerification = async () => {
   // Enforce explicit test database connection; fail closed on missing/unsafe target
   const { databaseName, sanitizedUri } = await connectTestDatabase();
-  console.log(`🚀 Running ResQ 2.0 End-to-End Emergency Workflow Acceptance Verification against [${databaseName}] (${sanitizedUri})...\n`);
+  console.log(`🚀 Running ResQ End-to-End Emergency Workflow Acceptance Verification against [${databaseName}] (${sanitizedUri})...\n`);
 
   const testRunId = `e2e-${randomUUID()}`;
   console.log(`📌 Test Run Identifier: ${testRunId}\n`);

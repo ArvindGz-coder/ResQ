@@ -1,6 +1,6 @@
-# ResQ 2.0: Complete Feature-by-Feature Audit Matrix
+# ResQ: Complete Feature-by-Feature Audit Matrix
 
-This document provides a comprehensive, repository-verified audit of all capabilities, APIs, data models, frontend routes, security controls, and test coverage across the **ResQ 2.0** Emergency Medical Services (EMS) coordination platform.
+This document provides a comprehensive, repository-verified audit of all capabilities, APIs, data models, frontend routes, security controls, and test coverage across the **ResQ** Emergency Medical Services (EMS) coordination platform.
 
 ---
 

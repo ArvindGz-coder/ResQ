@@ -19,7 +19,7 @@ const DEMO_PASSWORD = 'Password@123';
 
 export const seedDemoData = async () => {
   await connectDatabase();
-  console.log('🌱 Starting Comprehensive ResQ 2.0 Jaipur Demo Seeding...');
+  console.log('🌱 Starting Comprehensive ResQ Jaipur Demo Seeding...');
 
   const passwordHash = await bcrypt.hash(DEMO_PASSWORD, BCRYPT_ROUNDS);
 
@@ -927,7 +927,7 @@ export const seedDemoData = async () => {
   console.log('✅ Sample Emergency SOS Requests ready (RESOLVED, CANCELLED, ACTIVE)');
 
   console.log('\n=============================================================');
-  console.log('🎉 RESQ 2.0 JAIPUR DEMO SEEDING COMPLETED SUCCESSFULLY!');
+  console.log('🎉 RESQ JAIPUR DEMO SEEDING COMPLETED SUCCESSFULLY!');
   console.log('=============================================================');
   console.log('🔑 Unified Demo Password: ' + DEMO_PASSWORD);
   console.log('-------------------------------------------------------------');

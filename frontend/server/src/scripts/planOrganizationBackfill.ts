@@ -1878,7 +1878,7 @@ export const planOrganizationBackfill = async (options: PlannerOptions = {}): Pr
 
 export const printPlanSummary = (plan: BackfillPlanReport): void => {
   console.log('\n================================================================');
-  console.log('    ResQ 2.0 — DATA-01C Organization Backfill Migration Plan    ');
+  console.log('       ResQ — DATA-01C Organization Backfill Migration Plan     ');
   console.log('                       [DRY-RUN ONLY]                           ');
   console.log('================================================================');
   console.log(`Timestamp:         ${plan.timestamp}`);
@@ -2018,7 +2018,7 @@ export const savePlanToFile = (plan: BackfillPlanReport, outputPath?: string): s
 
 export const printHelp = (): void => {
   console.log(`
-ResQ 2.0 — Organization Backfill Migration Planner (DRY-RUN ONLY)
+ResQ — Organization Backfill Migration Planner (DRY-RUN ONLY)
 
 Usage:
   tsx src/scripts/planOrganizationBackfill.ts [options]
@@ -2072,7 +2072,7 @@ export const execute = async (): Promise<void> => {
   const sanitizedUri = sanitizeMongoUri(env.MONGODB_URI);
 
   if (!isJson) {
-    console.log(`ResQ 2.0 — Organization Backfill Migration Planner (DRY-RUN ONLY)`);
+    console.log(`ResQ — Organization Backfill Migration Planner (DRY-RUN ONLY)`);
     console.log(`Configuration: batch-size=${batchSize}, max-entities=${maxEntities}, max-ledger-entries=${maxLedgerEntries}`);
     if (outputPath) console.log(`Output Path: ${outputPath}`);
     console.log(`Connecting to database (${sanitizedUri})...`);

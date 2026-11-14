@@ -51,7 +51,7 @@ export const AdminAuditLogsPage = () => {
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div>
           <h1 className="text-2xl font-black text-slate-950">System Audit Log</h1>
-          <p className="text-xs text-slate-500">Immutable record of all governance actions and state changes across ResQ 2.0</p>
+          <p className="text-xs text-slate-500">Immutable record of all governance actions and state changes across ResQ</p>
         </div>
         <Button
           variant="secondary"

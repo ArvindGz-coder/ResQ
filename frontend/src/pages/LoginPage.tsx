@@ -165,7 +165,7 @@ export const LoginPage = ({ admin = false }: { admin?: boolean }) => {
             </div>
             <div>
               <p className="text-base font-bold tracking-tight text-white group-hover:text-rose-100 transition-colors">
-                resQ 2.O
+                ResQ
               </p>
               <p className="text-[10px] font-mono tracking-widest uppercase text-zinc-400">
                 {admin ? 'Command Operations' : 'Emergency Response Platform'}
@@ -381,7 +381,7 @@ export const LoginPage = ({ admin = false }: { admin?: boolean }) => {
 
         {/* Security Stamp */}
         <p className="mt-8 text-center text-[11px] font-mono text-zinc-500">
-          resQ 2.O · Zero-Trust Encryption · ISO 27001 Certified
+          ResQ · Zero-Trust Encryption · ISO 27001 Certified
         </p>
 
       </div>

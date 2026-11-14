@@ -119,7 +119,7 @@ export const DriverLayout = () => {
             {!collapsed && (
               <div className="min-w-0">
                 <div className="flex items-center gap-1.5">
-                  <span className="text-base font-black tracking-tight text-white leading-none">resQ</span>
+                  <span className="text-base font-black tracking-tight text-white leading-none">ResQ</span>
                   <span className="text-[10px] font-bold px-1.5 py-0.2 rounded-md bg-rose-500/20 text-rose-300 border border-rose-500/30">
                     RESPONDER
                   </span>

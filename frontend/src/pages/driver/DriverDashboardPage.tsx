@@ -478,7 +478,7 @@ export const DriverDashboardPage = () => {
               </span>
             </h1>
             <p className="mt-2 text-sm text-zinc-400 leading-relaxed font-normal">
-              Sub-second dispatch telemetry · Rapid patient recovery · ResQ 2.O Responder Grid
+              Sub-second dispatch telemetry · Rapid patient recovery · ResQ Responder Grid
             </p>
           </div>
 

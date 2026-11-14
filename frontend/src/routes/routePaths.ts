@@ -1,7 +1,7 @@
 import type { UserRole } from '../types/auth';
 
 /**
- * Single Source of Truth for all ResQ 2.0 Route Paths.
+ * Single Source of Truth for all ResQ Route Paths.
  */
 export const ROUTES = {
   PUBLIC: {

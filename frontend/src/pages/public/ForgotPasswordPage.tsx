@@ -51,7 +51,7 @@ export const ForgotPasswordPage = () => {
             <Shield className="h-4.5 w-4.5 text-white" strokeWidth={2.5} />
           </div>
           <div>
-            <p className="text-sm font-bold tracking-tight text-white">ResQ 2.O</p>
+            <p className="text-sm font-bold tracking-tight text-white">ResQ</p>
             <p className="text-[10px] tracking-widest uppercase" style={{ color: 'var(--text-tertiary)' }}>Crisis Management Platform</p>
           </div>
         </div>
@@ -208,7 +208,7 @@ export const ForgotPasswordPage = () => {
 
         {/* Footer note */}
         <p className="mt-8 text-center text-[11px]" style={{ color: 'var(--text-muted)' }}>
-          ResQ 2.O · Identity & Security · End-to-end encrypted
+          ResQ · Identity & Security · End-to-end encrypted
         </p>
       </div>
     </main>

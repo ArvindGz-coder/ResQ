@@ -110,7 +110,7 @@ export const LandingPage = () => {
             <div className="flex flex-col">
               <div className="flex items-center gap-2">
                 <span className="text-lg font-bold tracking-tight text-white group-hover:text-rose-100 transition-colors">
-                  resQ 2.O
+                  ResQ
                 </span>
                 <span className="text-[10px] font-mono uppercase px-2 py-0.5 rounded-full bg-rose-500/10 text-rose-400 border border-rose-500/20">
                   Crisis v2.4
@@ -634,7 +634,7 @@ export const LandingPage = () => {
             <div className="pointer-events-none absolute inset-0 -top-24 bg-rose-500/10 rounded-full blur-[100px]" />
 
             <div className="relative z-10">
-              <span className="overline text-rose-400 mb-4 inline-block">Deploy ResQ 2.O</span>
+              <span className="overline text-rose-400 mb-4 inline-block">Deploy ResQ</span>
               <h2 className="text-3xl sm:text-5xl font-light tracking-tight text-white mb-6">
                 Ready to Safeguard Your Community?
               </h2>
@@ -677,7 +677,7 @@ export const LandingPage = () => {
             <div className="h-7 w-7 rounded-lg bg-rose-600/20 flex items-center justify-center text-rose-400 border border-rose-500/30">
               <ShieldAlert className="h-3.5 w-3.5" />
             </div>
-            <span className="text-zinc-300 font-sans font-bold">resQ 2.O</span>
+            <span className="text-zinc-300 font-sans font-bold">ResQ</span>
             <span className="text-zinc-600">•</span>
             <span>Emergency Crisis Telemetry & Dispatch Infrastructure</span>
           </div>

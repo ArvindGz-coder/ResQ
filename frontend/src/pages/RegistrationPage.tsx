@@ -366,7 +366,7 @@ export const RegistrationPage = ({ kind: propKind }: RegistrationPageProps) => {
             <ShieldAlert className="h-4 w-4 text-white" />
           </div>
           <span className="font-bold tracking-tight text-white group-hover:text-rose-100 transition-colors">
-            resQ 2.O
+            ResQ
           </span>
         </Link>
 

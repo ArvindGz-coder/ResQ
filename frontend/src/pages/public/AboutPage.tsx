@@ -56,7 +56,7 @@ export const AboutPage = () => {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-lg sm:text-xl text-zinc-400 font-light leading-relaxed max-w-3xl mx-auto mb-12"
           >
-            ResQ 2.O eliminates departmental fragmentation across emergency medical response—synchronizing citizen SOS distress beacons, paramedic navigation, and hospital trauma command into a unified, zero-latency network.
+            ResQ eliminates departmental fragmentation across emergency medical response—synchronizing citizen SOS distress beacons, paramedic navigation, and hospital trauma command into a unified, zero-latency network.
           </motion.p>
 
           <motion.div
@@ -93,7 +93,7 @@ export const AboutPage = () => {
           <div className="text-center max-w-2xl mx-auto mb-16">
             <p className="overline text-rose-400 mb-2">Core Mandate</p>
             <h2 className="text-3xl sm:text-4xl font-light tracking-tight text-white">
-              The Guiding Purpose of ResQ 2.O
+              The Guiding Purpose of ResQ
             </h2>
           </div>
 

@@ -1,6 +1,6 @@
-# ResQ 2.0
+# ResQ
 
-ResQ 2.0 is a healthcare emergency coordination platform connecting users, hospitals, ambulance providers, ambulance drivers, and administrators around shared MongoDB-backed operational state.
+ResQ is a healthcare emergency coordination platform connecting users, hospitals, ambulance providers, ambulance drivers, and administrators around shared MongoDB-backed operational state.
 
 ResQ is a coordination/navigation product. It is not a diagnostic or treatment system.
 
@@ -161,7 +161,7 @@ TEST_MONGODB_URI="mongodb+srv://.../resq_automated_test?retryWrites=true&w=major
 
 ## Realtime Architecture
 
-ResQ 2.0 employs a dual-channel real-time architecture:
+ResQ employs a dual-channel real-time architecture:
 - **Socket.IO**: Bi-directional event communication powering live driver GPS telemetry and multi-client fanout across authenticated rooms (`emergency:*`, `trip:*`, `hospital:*`).
 - **Server-Sent Events (SSE)**: Fallback stream at `/api/v1/realtime/stream` for environments restricting WebSockets.
 - **Authoritative REST Snapshots**: Clients recovering from disconnections poll `/api/v1/tracking/...` to restore state before re-establishing subscriptions.

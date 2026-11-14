@@ -200,7 +200,7 @@ export const UserDashboardPage = () => {
         <div className="relative z-10 max-w-2xl">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/[0.04] border border-white/10 text-xs font-medium text-zinc-300 mb-4 backdrop-blur-md">
             <span className="h-2 w-2 rounded-full bg-rose-500 animate-pulse" />
-            <span>resQ 2.O · Jaipur Metropolitan Healthcare Grid</span>
+            <span>ResQ · Jaipur Metropolitan Healthcare Grid</span>
           </div>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-light tracking-tight text-white leading-tight mb-3">
@@ -670,7 +670,7 @@ export const UserDashboardPage = () => {
                   sub: 'Send GPS coordinates',
                   action: () => {
                     void navigator.share?.({
-                      title: 'My Location - resQ 2.O',
+                      title: 'My Location - ResQ',
                       text: currentLocation.label || 'Jaipur Metropolitan',
                     });
                   },

@@ -197,7 +197,7 @@ export const UserLayout = () => {
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-rose-600 shadow-sm">
                 <HeartPulse className="h-4 w-4 text-white" />
               </div>
-              <span className="font-black text-white text-sm">resQ 2.O</span>
+              <span className="font-black text-white text-sm">ResQ</span>
             </div>
 
             {/* Location Selector: Dark Glass Pill */}
